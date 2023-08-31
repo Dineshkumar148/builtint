@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>location list</title>
+    <!--css link-->
+    <link rel="stylesheet" href="locationlist.css">
+    <!--font link-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <img src="images/buildintlogo1.svg" alt="buildintlogo" id="buildintlogo1">
+            <img src="images/buildintlogo2.svg" alt="buildintlogo" id="buildintlogo2">
+            <div>
+                <ul>
+                    <li><a href="#"><i class="fas fa-home"></i> Dashboard</a></li>
+                    <li><a href="#"><i class="fa-solid fa-desktop"></i>Device Management</a></li>
+                    <li><a href="#"><i class="fa-solid fa-location-dot" style="color: #dfd8d8;"></i> Location
+                            Management</a></li>
+                            <li id="client-management"> <div class="navk"> <div class="left-stoke"></div> <a href="#"><i class="fa-solid fa-user-group" style="color: #f4f80d;"></i>Client Management</a>
+                            </div> </li>
+                    <li><a href="#"><i class="fas fa-sign-out-alt"></i> Report</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- header -->
+        <div>
+            <div class="header">
+                <div class="header-content"><i class="fas fa-bars"></i>
+                    <input type="text" class="search-input" placeholder="Search">
+                    <i class="fa-regular fa-circle-question"></i>
+                    <i class="fa-regular fa-envelope"></i>
+                    <i class="fa-regular fa-bell"></i>
+                    <img src="images/Avatar copy.png" alt="avator image" class="avatorimage">
+                    <div class="heading">
+                        <h1 id="head1">Tushar B</h1>
+                        <h2 id="head2">Regional Manager</h2>
+                    </div>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+
+
+            </div>
+            <div class="main-container">
+                <h1 id="head3">Client Details</h1>
+                <div class="link">
+                    <nav><a href="" id="link1">Client Management /</a></nav>
+                    <nav><a href="" id="link2">Location List</a></nav>
+                    <button class="edit-button"><i class="fa-solid fa-pen"></i>Edit Client</button>
+
+                </div>
+                <div class="content">
+                    <div class="icici">
+                        <img src="images/icici-logo.png" alt="icici-logo" id="icici-logo">
+                    </div>
+                    <div>
+                        <ul class="ul-list2">
+                            <li id="list1">ICICI</li>
+                            <li id="list2">BA58900</li>
+                            <li id="list3">Chennai</li>
+                            <li id="list4">Manager</li>
+                            <li id="list5">Phone Number</li>
+                            <li id="list5">15,Aug - 12.09 pm</li>
+                            <li id="list7">19,Aug - 12.10 pm</li>
+                        </ul>
+                        <ul class="ul-list3">
+                            <li id="list-item1">Client Name</li>
+                            <li id="list-item2">Client ID</li>
+                            <li id="list-item3">Location</li>
+                            <li id="list-item4">Location</li>
+                            <li id="list-item5">Phone Number</li>
+                            <li id="list-item6">Created Date and Time</li>
+                            <li id="list-item7">Update Date and Time</li>
+                        </ul>
+                        <ul class="ul-list4">
+                            <li id="list8">Arunram12@gmail.com</li>
+                            <li id="list9">ICICI</li>
+                            <li id="list10">Active</li>
+                        </ul>
+                        <ul class="ul-list5" class="listitem3">
+                            <li id="list-item11">Alert To</li>
+                            <li id="list-item12">www.nopcommerce.com</li>
+                            <li id="list-item13">Status</li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+                <div class="main-nav2">
+                    <nav class="nav">
+                        <ul>
+                            <li><a href="#" id="link3">Location List</a></li>
+                            <li><a href="#" id="link4">User Management</a></li>
+                        </ul>
+                    </nav>
+                    <input type="text" class="search-input1" placeholder="Search Location">
+                    <input type="text" class="search-input2" placeholder="Filter by">
+                    <button class="create-button"><i class="fa-solid fa-plus"></i> Create Location</button>
+                </div>
+
+                <table class="table-data">
+                    <tr class="table-row">
+                        <th>Zone ID</th>
+                        <th>Region ID</th>
+                        <th>Location ID</th>
+                        <th>State</th>
+                        <th>Location Manger</th>
+                        <th>Location Type</th>
+                        <th>Created On</th>
+                        <th>Status</th>
+                    </tr>
+
+
+                    <tr>
+                        <td class="table-data-value">N189</td>
+                        <td>RE586</td>
+                        <td>L9876</td>
+                        <td>Andhra Pradesh</td>
+                        <td>Ramesh</td>
+                        <td>Branch</td>
+                        <td>Jun 29 , 14:00</td>
+                        <td>No Device</td>
+
+
+                    </tr>
+                    <tr>
+                        <td class="table-data-value">N189</td>
+                        <td>RE586</td>
+                        <td>L9876</td>
+                        <td>Andhra Pradesh</td>
+                        <td>Ramesh</td>
+                        <td>Branch</td>
+                        <td>Jun 29 , 14:00</td>
+                        <td class="active">Active</td>
+                    </tr>
+                    <tr>
+                        <td class="table-data-value">N189</td>
+                        <td>RE586</td>
+                        <td>L9876</td>
+                        <td>Andhra Pradesh</td>
+                        <td>Ramesh</td>
+                        <td>Branch</td>
+                        <td>Jun 29 , 14:00</td>
+                        <td class="active">Active</td>
+                    </tr>
+                    <tr>
+                        <td class="table-data-value ">N189</td>
+                        <td>RE586</td>
+                        <td>L9876</td>
+                        <td>Andhra Pradesh</td>
+                        <td>Ramesh</td>
+                        <td>Branch</td>
+                        <td>Jun 29 , 14:00</td>
+                        <td class="active">Active</td>
+                    </tr>
+                    <tr>
+                        <td class="table-data-value ">N189</td>
+                        <td>RE586</td>
+                        <td>L9876</td>
+                        <td>Andhra Pradesh</td>
+                        <td>Ramesh</td>
+                        <td>Branch</td>
+                        <td>Jun 29 , 14:00</td>
+                        <td class="active">Active</td>
+                    </tr>
+                    <tr>
+                        <td class="table-data-value ">N189</td>
+                        <td>RE586</td>
+                        <td>L9876</td>
+                        <td>Andhra Pradesh</td>
+                        <td>Ramesh</td>
+                        <td>Branch</td>
+                        <td>Jun 29 , 14:00</td>
+                        <td class="active">Active</td>
+                    </tr>
+                    <tr>
+                        <td class="table-data-value ">N189</td>
+                        <td>RE586</td>
+                        <td>L9876</td>
+                        <td>Andhra Pradesh</td>
+                        <td>Ramesh</td>
+                        <td>Branch</td>
+                        <td>Jun 29 , 14:00</td>
+                        <td class="active">Active</td>
+                    </tr>
+                    <tr>
+                        <td class="table-data-value">N189</td>
+                        <td>RE586</td>
+                        <td>L9876</td>
+                        <td>Andhra Pradesh</td>
+                        <td>Ramesh</td>
+                        <td>Branch</td>
+                        <td>Jun 29 , 14:00</td>
+                        <td class="active">Active</td>
+                    </tr>
+
+                    <tr>
+                        <td class="table-data-value ">N189</td>
+                        <td>RE586</td>
+                        <td>L9876</td>
+                        <td>Andhra Pradesh</td>
+                        <td>Ramesh</td>
+                        <td>Branch</td>
+                        <td>Jun 29 , 14:00</td>
+                        <td class="active">Active</td>   
+                    </tr>
+                    <tr>
+                        <td class="table-data-value">N189</td>
+                        <td>RE586</td>
+                        <td>L9876</td>
+                        <td>Andhra Pradesh</td>
+                        <td>Ramesh</td>
+                        <td>Branch</td>
+                        <td>Jun 29 , 14:00</td>
+                        <td class="active">Active</td>
+                    </tr>
+                    <tr>
+                        <td class="table-data-value">N189</td>
+                        <td>RE586</td>
+                        <td>L9876</td>
+                        <td>Andhra Pradesh</td>
+                        <td>Ramesh</td>
+                        <td>Branch</td>
+                        <td>Jun 29 , 14:00</td>
+                        <td class="active">Active</td>
+                    </tr>
+                    <tr>
+                        <td class="table-data-value">N189</td>
+                        <td>RE586</td>
+                        <td>L9876</td>
+                        <td>Andhra Pradesh</td>
+                        <td>Ramesh</td>
+                        <td>Branch</td>
+                        <td>Jun 29 , 14:00</td>
+                        <td class="active">Active</td>
+                    </tr>
+                    <tr>
+                        <td class="table-data-value">N189</td>
+                        <td>RE586</td>
+                        <td>L9876</td>
+                        <td>Andhra Pradesh</td>
+                        <td>Ramesh</td>
+                        <td>Branch</td>
+                        <td>Jun 29 , 14:00</td>
+                        <td class="active">Active</td>
+                    </tr>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    </div>
+
+
+
+</body>
+
+</html>

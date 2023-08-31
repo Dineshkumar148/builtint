@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> create location</title>
+    <!--css link-->
+    <link rel="stylesheet" href="createlocation.css">
+    <!--font link-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- side bar -->
+        <div class="sidebar">
+            <img src="images/buildintlogo1.svg" alt="buildintlogo" id="buildintlogo1">
+            <img src="images/buildintlogo2.svg" alt="buildintlogo" id="buildintlogo2">
+            <div>
+                <ul>
+                    <li><a href="#"><i class="fas fa-home"></i> Dashboard</a></li>
+                    <li><a href="#"><i class="fa-solid fa-desktop"></i>Device Management</a></li>
+                    <li><a href="#"><i class="fa-solid fa-location-dot" style="color: #dfd8d8;"></i> Location
+                            Management</a></li>
+                    <li id="client-management">
+                        <div class="navk">
+                            <div class="left-stoke"></div> <a href="#"><i class="fa-solid fa-user-group"
+                                    style="color: #f4f80d;"></i>Client Management</a>
+                        </div>
+                    </li>
+                    <li><a href="#"><i class="fas fa-sign-out-alt"></i> Report</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- header -->
+        <div>
+            <div class="header">
+                <div class="header-content"><i class="fas fa-bars"></i>
+                    <input type="text" class="search-input" placeholder="Search">
+                    <i class="fa-regular fa-circle-question"></i>
+                    <i class="fa-regular fa-envelope"></i>
+                    <i class="fa-regular fa-bell"></i>
+                    <img src="images/Avatar copy.png" alt="avator image" class="avatorimage">
+                    <div class="heading">
+                        <h1 id="head1">Tushar B</h1>
+                        <h2 id="head2">Regional Manager</h2>
+                    </div>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+            <div class="main-container">
+                <div>
+                    <h3 id="head3">Create Location</h3>
+                </div>
+                <div class="first-label">
+                    <Label class="label" id="label-content1">Location Type*</Label>
+                    <Label class="label" id="label-content2">Location code*</Label>
+                    <Label class="label" id="label-content3">Manager name</Label>
+                    <Label class="label" id="label-content4">Device ID*</Label>
+                </div>
+                <div class="first-input">
+                    <input type="text" class="search-input1" placeholder="Office">
+                    <input type="text" class="search-input1" placeholder="N53">
+                    <input type="text" class="search-input1" placeholder="N53">
+                    <input type="text" class="search-input1" placeholder="N53">
+                </div>
+                <div class="second-label">
+                    <Label class="label" id="label-content5">Branch Name*</Label>
+                    <Label class="label" id="label-content6">Organisation</Label>
+                    <Label class="label" id="label-content7">Rate per unit</Label>
+                    <Label class="label" id="label-content8">LCountry*</Label>
+                </div>
+                <div>
+                    <input type="email" class="search-input1" placeholder="Ram12@gmail.com">
+                    <input type="text" class="search-input1" placeholder="HDFC">
+                    <input type="text" class="search-input1" placeholder="Reginol Manager">
+                    <input type="text" class="search-input1" placeholder="N53">
+                </div>
+                <div class="third-label">
+                    <Label class="label" id="label-content9">State*</Label>
+                    <Label class="label" id="label-content10">District*</Label>
+                    <Label class="label" id="label-content11">City*</Label>
+                    <Label class="label" id="label-content12">Phone Number</Label>
+                </div>
+                <div>
+                    <input type="text" class="search-input1" placeholder="Tamil Nadu">
+                    <input type="text" class="search-input1" placeholder="Chennai">
+                    <input type="text" class="search-input1" placeholder="Chennai">
+                    <input type="phone number" class="search-input1" placeholder="9686896660">
+                </div>
+                <div class="fourth-label">
+                    <Label class="label" id="label-content13">Latitude*</Label>
+                    <Label class="label" id="label-content14">Longitude*</Label>
+                    <Label class="label" id="label-content15">PIN Code*</Label>
+                </div>
+                <div>
+                    <input type="text" class="search-input1" placeholder="42.4576">
+                    <input type="text" class="search-input1" placeholder="72.5656">
+                    <input type="text" class="search-input1" placeholder="600028">
+                </div>
+                <div class="button">
+                    <button id="cancel-btn">Cancel</button>
+                    <button id="submit-btn">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
